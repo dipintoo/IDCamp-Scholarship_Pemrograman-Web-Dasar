@@ -7,13 +7,13 @@ Saya sendiri memilih alur belajar sebagai Front End Web Developer yang tersedia 
 submission (tugas akhir) maupun waktu (durasi belajar). Kualitas submission dinilai berdasarkan hasil rating kelulusan dari skala 1 sampai 5 dengan detail:
 
 1. Bintang 1
-Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
+   Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
 2. Bintang 2
-Semua ketentuan terpenuhi, tetapi terdapat kekurangan pada tampilan website. Contohnya tidak menerapkan responsibilitas, kombinasi warna tidak tepat, dsb.
+   Semua ketentuan terpenuhi, tetapi terdapat kekurangan pada tampilan website. Contohnya tidak menerapkan responsibilitas, kombinasi warna tidak tepat, dsb.
 3. Bintang 3
-Semua ketentuan terpenuhi, tetapi hanya mengikuti apa yang ada pada modul.
+   Semua ketentuan terpenuhi, tetapi hanya mengikuti apa yang ada pada modul.
 4. Bintang 4
-Semua ketentuan terpenuhi dan menerapkan minimal salah satu saran di atas.
+   Semua ketentuan terpenuhi dan menerapkan minimal salah satu saran di atas.
 5. Bintang 5
-Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
+   Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
 
