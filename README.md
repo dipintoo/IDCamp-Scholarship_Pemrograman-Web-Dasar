@@ -45,7 +45,8 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
   - Membuat slider.
   - dan lainnya yang mendukung tampilan website agar lebih hidup.
  
-# Submission Saya  
+# Hasil Submission Saya  
+
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
 )
 
