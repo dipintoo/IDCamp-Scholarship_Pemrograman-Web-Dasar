@@ -12,7 +12,7 @@ submission (tugas akhir) maupun waktu (durasi belajar). Kualitas submission dini
 - **Bintang 4** - Semua ketentuan terpenuhi dan menerapkan minimal salah satu saran di atas.
 - **Bintang 5** - Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
 
-# [1/2] Pemrograman Web Dasar dengan HTML dan CSS  
+# [1/2] Pemrograman Web Dasar dengan HTML, CSS dan JavaScript  
 
 ## Kriteria
 Berikut kriteria submission yang harus Anda penuhi.
