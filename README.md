@@ -6,8 +6,8 @@ Saya sendiri memilih alur belajar sebagai Front End Web Developer yang tersedia 
 (expert). Untuk mendapatkan beasiswa lanjutan di level Intermediate dan Expert saya diwajibkan untuk menuntaskan kelas Basic dan Beginner sebaik mungkin, baik dari segi kualitas
 submission (tugas akhir) maupun waktu (durasi belajar). Kualitas submission dinilai berdasarkan hasil rating kelulusan dari skala 1 sampai 5 dengan detail:
 
-1. Bintang 1
-   Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
+- Bintang 1
+  Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
 2. Bintang 2
    Semua ketentuan terpenuhi, tetapi terdapat kekurangan pada tampilan website. Contohnya tidak menerapkan responsibilitas, kombinasi warna tidak tepat, dsb.
 3. Bintang 3
