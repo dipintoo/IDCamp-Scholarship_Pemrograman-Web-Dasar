@@ -2,9 +2,7 @@
 IDCamp adalah sebuah program beasiswa yang diselenggarakan oleh Indosat Ooredoo Hutchison dengan tujuan untuk mencetak developer/programmer muda Indonesia yang siap bersaing di dunia ekonomi digital.
 
 ## Front End Web Developer Learning Path
-Saya sendiri memilih alur belajar sebagai Front End Web Developer yang tersedia dalam berbagai level, mulai dari dasar (basic), pemula (beginner), menengah (intermediate), hingga mahir
-(expert). Untuk mendapatkan beasiswa lanjutan di level Intermediate dan Expert saya diwajibkan untuk menuntaskan kelas Basic dan Beginner sebaik mungkin, baik dari segi kualitas
-submission (tugas akhir) maupun waktu (durasi belajar). Kualitas submission dinilai berdasarkan hasil rating kelulusan dari bintang 1 sampai bintang 5 dengan detail sebagai berikut:
+Saya sendiri memilih alur belajar sebagai Front End Web Developer. Untuk mendapatkan beasiswa lanjutan di level Intermediate dan Expert saya diwajibkan untuk menuntaskan kelas Basic dan Beginner sebaik mungkin, baik dari segi kualitas submission (tugas akhir) maupun waktu (durasi belajar). Kualitas submission dinilai berdasarkan hasil rating kelulusan dari bintang 1 sampai bintang 5 dengan detail sebagai berikut:
 
 - **Bintang 1** - Semua ketentuan terpenuhi, tetapi terdapat indikasi plagiat yaitu dengan menggunakan proyek orang lain dan hanya mengubah kontennya saja.
 - **Bintang 2** - Semua ketentuan terpenuhi, tetapi terdapat kekurangan pada tampilan website. Contohnya tidak menerapkan responsibilitas, kombinasi warna tidak tepat, dsb.
@@ -46,4 +44,7 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
   - Memanfaatkan logika seperti looping dalam menampilkan elemen dan konten.
   - Membuat slider.
   - dan lainnya yang mendukung tampilan website agar lebih hidup.
+ 
+# Submission Saya
+
 
