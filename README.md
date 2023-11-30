@@ -10,8 +10,7 @@ Saya sendiri memilih alur belajar sebagai Front End Web Developer. Untuk mendapa
 - **Bintang 4** - Semua ketentuan terpenuhi dan menerapkan minimal salah satu saran di atas.
 - **Bintang 5** - Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
 
-# [1/2] Pemrograman Web Dasar dengan HTML, CSS dan JavaScript  
-
+# [1/2] Pemrograman Web Dasar
 ## Kriteria
 Berikut kriteria submission yang harus Anda penuhi.
 - Terdapat elemen `<header>`, `<footer>`, `<main>`, `<article>`, dan `<aside>` di berkas HTML.
