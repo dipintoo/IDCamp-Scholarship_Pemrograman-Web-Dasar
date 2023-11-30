@@ -46,7 +46,9 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
   - dan lainnya yang mendukung tampilan website agar lebih hidup.
  
 # Hasil Submission Saya  
-Saya membuat website adopsi anjing dengan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
+Saya membuat desain antarmuka website bernama **Dogi** dimana ceritanya website ini adalah website untuk adopsi anjing peliharaan. Saya menyusun layout tampilan website menggunakan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya.  
+
+Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
 
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
 )  
