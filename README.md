@@ -49,6 +49,8 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
 Saya membuat website adopsi anjing dengan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4. Berikut [Detail Submission-nya >>](https://www.dicoding.com/academysubmissions/2515363)
 
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
-)
+)  
+
+[***Next Project - [2/2] Front-End Dasar >>***](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/tree/main)
 
 
