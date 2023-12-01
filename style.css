@@ -44,12 +44,13 @@ footer {
   background: var(--backgroundColor);
 }
 
-#bluepurple + label {
+#bluepurple+label {
   background: linear-gradient(to left, #673ab7 50%, #03a9f4 50%);
 }
-#bluepurple:checked ~ header,
-#bluepurple:checked ~ main,
-#bluepurple:checked ~ footer {
+
+#bluepurple:checked~header,
+#bluepurple:checked~main,
+#bluepurple:checked~footer {
   --backgroundColor: #fff;
   --foregroundColor: #111;
   --primaryColor: #03a9f4;
@@ -78,12 +79,13 @@ footer {
   --accent2Shade5: #558b2f;
 }
 
-#dark + label {
+#dark+label {
   background: linear-gradient(to right, #367bc3 50%, #38bfa7 50%);
 }
-#dark:checked ~ header,
-#dark:checked ~ main,
-#dark:checked ~ footer {
+
+#dark:checked~header,
+#dark:checked~main,
+#dark:checked~footer {
   --canvasColor: #2a313b;
   --backgroundColor: #2a313b;
   --foregroundColor: #ebe8d8;
@@ -115,52 +117,62 @@ footer {
   border-color: #f1f2eb;
 }
 
-#dark:checked ~ header a.button,
-#dark:checked ~ header input.button,
-#dark:checked ~ header button,
-#dark:checked ~ main a.button,
-#dark:checked ~ main input.button,
-#dark:checked ~ main button,
-#dark:checked ~ footer a.button,
-#dark:checked ~ footer input.button,
-#dark:checked ~ footer button {
+#dark:checked~header a.button,
+#dark:checked~header input.button,
+#dark:checked~header button,
+#dark:checked~main a.button,
+#dark:checked~main input.button,
+#dark:checked~main button,
+#dark:checked~footer a.button,
+#dark:checked~footer input.button,
+#dark:checked~footer button {
   color: var(--foregroundColor);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-#dark:checked ~ header a.link {
+
+#dark:checked~header a.link {
   color: var(--neutralShade2);
 }
-#dark:checked ~ header a.link:hover,
-#dark:checked ~ header a.link.hover {
+
+#dark:checked~header a.link:hover,
+#dark:checked~header a.link.hover {
   color: var(--neutralShade1);
   border-bottom: 2px solid;
 }
-#dark:checked ~ header a.link.primary {
+
+#dark:checked~header a.link.primary {
   color: var(--primaryShade4);
 }
-#dark:checked ~ header a.link.primary:hover,
-#dark:checked ~ header a.link.primary.hover {
+
+#dark:checked~header a.link.primary:hover,
+#dark:checked~header a.link.primary.hover {
   color: var(--primaryShade5);
 }
-#dark:checked ~ header {
+
+#dark:checked~header {
   border-bottom: 0.5px solid var(--neutralShade6);
 }
-#dark:checked ~ footer .footer__section a {
+
+#dark:checked~footer .footer__section a {
   color: var(--neutralShade3);
 }
-#dark:checked ~ footer .footer__section a:hover {
+
+#dark:checked~footer .footer__section a:hover {
   color: var(--primaryShade4);
 }
-#dark:checked ~ footer .legal-stuff,
-#dark:checked ~ footer .legal-stuff a,
-#dark:checked ~ footer .divider {
+
+#dark:checked~footer .legal-stuff,
+#dark:checked~footer .legal-stuff a,
+#dark:checked~footer .divider {
   border-color: var(--neutralShade6);
   color: var(--neutralShade4);
 }
-#dark:checked ~ footer .legal-stuff a:hover {
+
+#dark:checked~footer .legal-stuff a:hover {
   color: var(--neutralShade3);
 }
-#dark:checked ~ main .dog-manythings__more h3 {
+
+#dark:checked~main .dog-manythings__more h3 {
   border-color: var(--neutralShade6);
 }
 
@@ -168,14 +180,17 @@ footer {
 strong {
   font-weight: 500;
 }
+
 h1 {
   font: 700 48px/1.2 "Poppins", sans-serif;
   margin-bottom: 10px;
 }
+
 h3 {
   font: 700 24px/1.2 "Poppins", sans-serif;
   margin-bottom: 10px;
 }
+
 h5 {
   font: 500 18px/1.2 "Poppins", sans-serif;
   margin-bottom: 10px;
@@ -186,6 +201,7 @@ a {
   text-decoration: none;
   color: var(--foregroundColor);
 }
+
 a.link {
   display: inline;
   border-bottom: 2px dashed;
@@ -194,21 +210,26 @@ a.link {
   cursor: pointer;
   color: var(--neutralShade5);
 }
+
 a.link:hover,
 a.link.hover {
   color: var(--neutralShade6);
   border-bottom: 2px solid;
 }
+
 a.link.primary {
   color: var(--primaryColor);
 }
+
 a.link.primary:hover,
 a.link.primary.hover {
   color: var(--primaryShade5);
 }
+
 a.link.secondary {
   color: var(--secondaryColor);
 }
+
 a.link.secondary:hover,
 a.link.secondary.hover {
   color: var(--secondaryShade5);
@@ -232,6 +253,7 @@ button {
   top: 0;
   transition: 0.2s ease;
 }
+
 a.button:hover,
 a.button.hover,
 input.button:hover,
@@ -241,12 +263,14 @@ button.hover {
   top: -3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
+
 a.button.medium,
 input.button.medium,
 button.medium {
   padding: 15px 18px;
   width: auto;
 }
+
 a.button.secondary,
 input.button.secondary,
 button.secondary {
@@ -279,6 +303,7 @@ input.input-form {
   color: var(--foregroundColor);
   background: var(--backgroundColor);
 }
+
 input.input-form:focus,
 input.input-form.active {
   outline: none;
@@ -288,7 +313,8 @@ input.input-form.active {
 input.variation {
   display: none;
 }
-input.variation + label {
+
+input.variation+label {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -304,6 +330,7 @@ header {
   border-radius: 10px 10px 0 0;
   position: relative;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -313,12 +340,14 @@ nav {
   background: var(--backgroundColor);
   border-radius: 10px 10px 0 0;
 }
+
 .logo {
   font: 32px "Poppins", sans-serif;
   margin-left: 4px;
   font-weight: 900;
   color: var(--primaryColor);
 }
+
 .profile a {
   margin: 10px;
 }
@@ -327,12 +356,15 @@ nav {
 .dog-info {
   padding: 30px;
 }
+
 .dog-name {
   margin-block: 10px 0;
 }
+
 .dog-name a.button {
   margin: 20px 0;
 }
+
 .dog-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -340,10 +372,12 @@ nav {
   grid-auto-flow: dense;
   margin-bottom: 50px;
 }
+
 .dog-gallery__input {
   display: none;
 }
-.dog-gallery__input + label {
+
+.dog-gallery__input+label {
   display: inline-block;
   width: 100%;
   height: 120px;
@@ -353,15 +387,18 @@ nav {
   overflow: hidden;
   transition: 0.2s ease;
 }
-.dog-gallery__input + label img {
+
+.dog-gallery__input+label img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 50% 0;
 }
-.dog-gallery__input:checked + label {
+
+.dog-gallery__input:checked+label {
   box-shadow: 0 0 0 1.5px var(--neutralShade6), 0 6px 12px -6px var(--neutralShade7);
 }
+
 .dog-gallery__images {
   grid-column: 1 / -1;
   grid-row: 1 / 3;
@@ -371,6 +408,7 @@ nav {
   position: relative;
   border-radius: 10px;
 }
+
 .dog-gallery__images img {
   width: 100%;
   height: 100%;
@@ -383,19 +421,22 @@ nav {
   transition: 0.5s ease;
 }
 
-#gallery-image-1:checked ~ .dog-gallery__images img:nth-child(1) {
+#gallery-image-1:checked~.dog-gallery__images img:nth-child(1) {
   transform: translateY(0);
   opacity: 1;
 }
-#gallery-image-2:checked ~ .dog-gallery__images img:nth-child(2) {
+
+#gallery-image-2:checked~.dog-gallery__images img:nth-child(2) {
   transform: translateY(0);
   opacity: 1;
 }
-#gallery-image-3:checked ~ .dog-gallery__images img:nth-child(3) {
+
+#gallery-image-3:checked~.dog-gallery__images img:nth-child(3) {
   transform: translateY(0);
   opacity: 1;
 }
-#gallery-image-4:checked ~ .dog-gallery__images img:nth-child(4) {
+
+#gallery-image-4:checked~.dog-gallery__images img:nth-child(4) {
   transform: translateY(0);
   opacity: 1;
 }
@@ -403,26 +444,32 @@ nav {
 .dog-manythings {
   line-height: 1.8;
 }
+
 .dog-manythings__stats p {
   color: var(--grayColor);
   text-transform: uppercase;
   font-size: 16px;
 }
+
 .dog-manythings__stats h5 {
   font: 500 18px/1.2 "Poppins", sans-serif;
   margin: 0 0 20px;
 }
+
 .dog-manythings__more {
   padding-top: 30px;
   margin: 30px 0;
 }
+
 .dog-manythings__more p {
   margin-bottom: 12px;
 }
+
 .dog-manythings__more strong {
   display: inline-block;
   margin-right: 8px;
 }
+
 .dog-manythings h3 {
   border-bottom: 0.5px solid var(--lightGrayColor);
   padding-bottom: 15px;
@@ -437,6 +484,7 @@ nav {
     align-items: flex-start;
     grid-template-areas: "dog-name dog-name" "dog-gallery dog-manythings" "dog-askabout dog-manythings" ". dog-manythings";
   }
+
   .dog-name {
     grid-column: 1 / span 2;
     display: grid;
@@ -444,20 +492,25 @@ nav {
     align-items: center;
     grid-area: dog-name;
   }
+
   .dog-gallery {
     grid-area: dog-gallery;
     margin: 0;
   }
-  .dog-gallery__input + label {
+
+  .dog-gallery__input+label {
     height: 110px;
     margin-bottom: 0;
   }
+
   .dog-gallery__images {
     grid-row: 1 / 2;
   }
+
   .dog-askabout {
     grid-area: dog-askabout;
   }
+
   .dog-manythings {
     grid-area: dog-manythings;
     margin-left: 20px;
@@ -465,9 +518,24 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(180px, 50%));
     grid-gap: 10px;
   }
+
   .dog-manythings__more {
     grid-column: 1 / span 2;
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .dog-info {
+    padding: 1rem;
+  }
+
+  .dog-gallery {
+    grid-column-gap: 0.4rem;
+  }
+
+  .dog-gallery__input+label {
+    margin: 0.4rem auto;
   }
 }
 
@@ -479,9 +547,11 @@ nav {
   background: var(--primaryShade1);
   border-radius: 10px;
 }
+
 .well-cta--form__text {
   margin-bottom: 10px;
 }
+
 .well-cta--form h3 {
   color: var(--primaryShade5);
 }
@@ -490,6 +560,7 @@ nav {
   .well-cta--form {
     grid-template-columns: 1fr auto;
   }
+
   .well-cta--form__text {
     grid-column: span 2;
   }
@@ -519,14 +590,17 @@ footer {
 .footer__section {
   margin: 2em 0;
 }
+
 .footer__section li a {
   padding: 5px 0;
   display: block;
   color: var(--grayColor);
 }
+
 .footer__section li a:hover {
   color: var(--primaryColor);
 }
+
 .footer__section p {
   font-weight: 600;
   font-size: 18px;
@@ -549,13 +623,16 @@ footer {
   border-top: 0.5px solid var(--lightGrayColor);
   color: var(--neutralShade5);
 }
+
 .legal-stuff span {
   margin-right: 20px;
 }
+
 .legal-stuff a {
   margin: 0 10px;
   color: var(--neutralShade5);
 }
+
 .legal-stuff a:hover {
   color: var(--secondaryColor);
 }
@@ -572,5 +649,11 @@ footer {
   .subscription,
   .footer__section {
     margin: 0;
+  }
+}
+
+@media (max-width:480px) {
+  footer {
+    padding: 1rem;
   }
 }
