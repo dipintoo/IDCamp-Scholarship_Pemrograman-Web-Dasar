@@ -664,19 +664,6 @@ footer {
       border: 3px solid white;
    }
 
-   header {
-      margin-inline: 1rem;
-      border-radius: 0.6rem;
-   }
-
-   main {
-      background: var(--canvasColor);
-   }
-
-   nav {
-      border-radius: 0.6rem;
-   }
-
    nav i {
       display: block;
       margin-top: -10px;
