@@ -666,6 +666,7 @@ footer {
 
    header {
       margin-inline: 1rem;
+      border-radius: 0.6rem;
    }
 
    main {
@@ -673,7 +674,7 @@ footer {
    }
 
    nav {
-      border-radius: 0.8rem;
+      border-radius: 0.6rem;
    }
 
    nav i {
@@ -682,7 +683,7 @@ footer {
    }
 
    .logo {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
    }
 
    .profile {
