@@ -1,166 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i,700|Barriecito" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Dogi Adoptions</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css" />
-   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i,700|Barriecito" rel="stylesheet" />
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
-   <title>Dogi Adoptions</title>
-</head>
+  <body>
+    <!-- THEMES SWITCH -->
+    <input id="bluepurple" class="variation" type="radio" value="1" name="color" checked />
+    <label for="bluepurple"></label>
+    <input id="dark" class="variation" type="radio" value="2" name="color" />
+    <label for="dark"></label>
 
-<body>
-   <!-- THEMES SWITCH -->
-   <input id="bluepurple" class="variation" type="radio" value="1" name="color" checked />
-   <label for="bluepurple"></label>
-   <input id="dark" class="variation" type="radio" value="2" name="color" />
-   <label for="dark"></label>
-
-   <!-- HEADER -->
-   <header>
-      <nav>
-         <div class="logo">Dogi.</div>
-         <i class="bi bi-three-dots-vertical"></i>
-         <div class="profile">
+    <!-- HEADER -->
+    <section>
+      <header>
+        <nav>
+          <div class="logo">Dogi.</div>
+          <i class="bi bi-three-dots-vertical"></i>
+          <div class="profile">
             <a class="link primary" href="#">Login</a>
             <a class="button primary medium" href="#">Sign Up</a>
-         </div>
-      </nav>
-   </header>
+          </div>
+        </nav>
+      </header>
 
-   <!-- MAIN -->
-   <main>
-      <div class="dog-info">
-         <article class="dog-name">
-            <div class="dog-name__info">
-               <h1>John Inu</h1>
-            </div>
-         </article>
-
-         <aside class="dog-gallery">
+      <!-- MAIN -->
+      <main>
+        <div class="dog-info">
+          <aside class="dog-gallery">
             <input id="gallery-image-1" class="dog-gallery__input" type="radio" value="1" name="dog-image" checked />
             <label for="gallery-image-1">
-               <img src="./img/John Inu Pose 1.jpg" alt="John Inu Pose 1" />
+              <img src="./img/John Inu Pose 1.jpg" alt="John Inu Pose 1" />
             </label>
 
             <input id="gallery-image-2" class="dog-gallery__input" type="radio" value="2" name="dog-image" />
             <label for="gallery-image-2">
-               <img src="./img/John Inu Pose 2.jpg" alt="John Inu Pose 2" />
+              <img src="./img/John Inu Pose 2.jpg" alt="John Inu Pose 2" />
             </label>
 
             <input id="gallery-image-3" class="dog-gallery__input" type="radio" value="3" name="dog-image" />
             <label for="gallery-image-3">
-               <img src="./img/John Inu Pose 3.jpg" alt="John Inu Pose 3" />
+              <img src="./img/John Inu Pose 3.jpg" alt="John Inu Pose 3" />
             </label>
 
             <input id="gallery-image-4" class="dog-gallery__input" type="radio" value="4" name="dog-image" />
             <label for="gallery-image-4">
-               <img src="./img/John Inu Pose 4.jpg" alt="John Inu Pose 4" />
+              <img src="./img/John Inu Pose 4.jpg" alt="John Inu Pose 4" />
             </label>
 
             <div class="dog-gallery__images">
-               <img src="./img/John Inu Pose 1.jpg" alt="John Inu Pose 1" />
-               <img src="./img/John Inu Pose 2.jpg" alt="John Inu Pose 2" />
-               <img src="./img/John Inu Pose 3.jpg" alt="John Inu Pose 3" />
-               <img src="./img/John Inu Pose 4.jpg" alt="John Inu Pose 4" />
+              <img src="./img/John Inu Pose 1.jpg" alt="John Inu Pose 1" />
+              <img src="./img/John Inu Pose 2.jpg" alt="John Inu Pose 2" />
+              <img src="./img/John Inu Pose 3.jpg" alt="John Inu Pose 3" />
+              <img src="./img/John Inu Pose 4.jpg" alt="John Inu Pose 4" />
             </div>
-         </aside>
+          </aside>
 
-         <article class="dog-manythings">
+          <article class="dog-manythings">
             <div class="dog-manythings__stats">
-               <p>Breed</p>
-               <h5>Shiba Inu</h5>
+              <p>Breed</p>
+              <h5>Shiba Inu</h5>
             </div>
             <div class="dog-manythings__stats">
-               <p>Type</p>
-               <h5>Senior</h5>
+              <p>Type</p>
+              <h5>Senior</h5>
             </div>
             <div class="dog-manythings__stats">
-               <p>Sex</p>
-               <h5>Male</h5>
+              <p>Sex</p>
+              <h5>Male</h5>
             </div>
             <div class="dog-manythings__stats">
-               <p>Size</p>
-               <h5>Medium</h5>
+              <p>Size</p>
+              <h5>Medium</h5>
             </div>
             <div class="dog-manythings__stats">
-               <p>Color</p>
-               <h5>Brown & White</h5>
+              <p>Color</p>
+              <h5>Brown & White</h5>
             </div>
             <div class="dog-manythings__stats">
-               <p>Coat Length</p>
-               <h5>Short</h5>
+              <p>Coat Length</p>
+              <h5>Short</h5>
             </div>
             <div class="dog-manythings__more">
-               <h3>More about John Inu</h3>
-               <p><strong>Characteristics:</strong> Gentle, playful</p>
-               <p><strong>Health:</strong> Vaccinations up to date. Neutered.</p>
-               <p><strong>Good with:</strong> Other pets and children</p>
-               <p><strong>Exercise Needs:</strong> Moderate — daily walks and playtime</p>
-               <p><strong>Other Important Details:</strong> No known health issues, but may require a balanced diet to
-                  maintain weight</p>
-               <p>
-                  Meet John, a charismatic male Shiba Inu with a heart of gold. He's a social butterfly, great with
-                  people and
-                  other pets. John loves walks, playtime, and will fill your home with warmth and joy. Be ready for some
-                  shedding, and
-                  with the right care, John will be the perfect companion for your adventures.
-               </p>
+              <h3>John Inu</h3>
+              <p>John, a charismatic male Shiba Inu with a heart of gold. He's a social butterfly, great with people and other pets. John loves walks, playtime, and will fill your home with warmth and joy.</p>
+              <p><strong>Characteristics:</strong> Gentle, playful</p>
+              <p><strong>Health:</strong> Vaccinations up to date. Neutered.</p>
+              <p><strong>Good with:</strong> Other pets and children</p>
+              <p><strong>Exercise Needs:</strong> Moderate — daily walks and playtime</p>
+              <p><strong>Other Important Details:</strong> No known health issues, but may require a balanced diet to maintain weight</p>
             </div>
-         </article>
+          </article>
+        </div>
+        <div class="dog-ask-about">
+          <a class="button" href="#">Ask for John Inu</a>
+        </div>
+      </main>
 
-         <div class="dog-ask-about">
-            <a class="button" href="#">Ask About John Inu</a>
-         </div>
-      </div>
-   </main>
+      <!-- FOOTER -->
+      <footer>
+        <div class="divider"></div>
 
-   <!-- FOOTER -->
-   <footer>
-      <div class="divider"></div>
-
-      <ul class="footer__section about-list">
-         <li>
+        <ul class="footer__section about-list">
+          <li>
             <p>About Us</p>
-         </li>
-         <li><a href="#">Our Values</a></li>
-         <li><a href="#">Media Kit</a></li>
-         <li><a href="#">Volunteer with Us!</a></li>
-      </ul>
+          </li>
+          <li><a href="#">Our Values</a></li>
+          <li><a href="#">Media Kit</a></li>
+          <li><a href="#">Volunteer with Us!</a></li>
+        </ul>
 
-      <ul class="footer__section adopt-list">
-         <li>
+        <ul class="footer__section adopt-list">
+          <li>
             <p>Adopt, Don't Shop!</p>
-         </li>
-         <li><a href="#">Browse Dogs</a></li>
-         <li><a href="#">Resources</a></li>
-      </ul>
+          </li>
+          <li><a href="#">Browse Dogs</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
 
-      <div class="subscription">
-         <div class="well-cta--form">
+        <div class="subscription">
+          <div class="well-cta--form">
             <div class="well-cta--form__text">
-               <h3>Subscribe to our newsletter!</h3>
-               <p>Get the latest news on dogi. We are pawsitive we will not spam you.</p>
+              <h3>Subscribe to our newsletter!</h3>
+              <p>Get the latest news on dogi. We are pawsitive we will not spam you.</p>
             </div>
             <div class="well-cta--form__input">
-               <input class="input-form input--lg" type="text" placeholder="Your Email Here" />
+              <input class="input-form input--lg" type="text" placeholder="Your Email Here" />
             </div>
             <div class="well-cta--form__cta">
-               <a class="button secondary" href="#">Subscribe</a>
+              <a class="button secondary" href="#">Subscribe</a>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="legal-stuff">
-         <span>Copyright &copy; 2023<a href="https://codepen.io/dipintoo/collections/public">Rahmad dipinto</a></span>
-         <br />
-         <p>All Right Reserved.</p>
-      </div>
-   </footer>
+        <div class="legal-stuff">
+          <span>Copyright &copy; 2023<a href="https://codepen.io/dipintoo/collections/public">Rahmad dipinto</a></span>
+          <br />
+          <p>All Right Reserved.</p>
+        </div>
+      </footer>
+    </section>
 
-   <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
