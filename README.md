@@ -49,8 +49,7 @@ Saya membuat desain antarmuka website bernama [**Dogi**](https://idcamppemrogram
 
 Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
 
-![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
-)  
+![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/img/Submission%20Rating%20Pemrograman%20Web%20Dasar.png)  
 
 # Sertifikat  
 Setelah menyelesaikan submission dan dinyatakan lolos, saya mendapatkan [Sertifikat Kompetensi Kelulusan](https://www.dicoding.com/certificates/98XWVD1QJPM3).
