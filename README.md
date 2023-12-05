@@ -45,7 +45,7 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
   - dan lainnya yang mendukung tampilan website agar lebih hidup.
  
 # Hasil Submission Saya  
-Saya membuat desain antarmuka website bernama [**Dogi**](https://idcamppemrograman-web-dasar.dipintoo.repl.co/) dimana ceritanya website ini adalah website untuk adopsi anjing peliharaan. Saya menyusun layout tampilan website menggunakan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya.  
+Saya membuat desain antarmuka website bernama [**Dogi**](https://idcamppemrograman-web-dasar-new.dipintoo.repl.co/) dimana ceritanya website ini adalah website untuk adopsi anjing peliharaan. Saya menyusun layout tampilan website menggunakan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya.  
 
 Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
 
